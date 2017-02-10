@@ -1,0 +1,294 @@
+/**********************************
+Web Fonts
+***********************************/
+@font-face {
+	font-family: 'Averta';
+	src:url('../font/Averta_Light.woff');
+	
+	src:url('../font/Averta_Extra_Bold.woff');
+	src:url('../font/Averta.woff');
+}
+@font-face {
+  font-family: 'Averta-Bold';
+  src:url('../font/Averta_Bold.woff');
+}
+/**********************************
+GENERAL
+***********************************/
+body {
+  font-family:'Averta';
+  color: #facd12;
+  margin: 0;
+  
+}
+img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+hr {
+  width: 30%;
+  text-align: center;
+  background: #facd12;
+}
+h1 {
+  font-family: 'Averta-Bold';
+}
+#wrapper {
+  height: 700px;
+  padding:0;
+  margin: 0;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+
+}
+a:hover {
+  color: #facd12;
+}
+/**********************************
+MAIN-HEADER
+***********************************/
+.main-header {
+  height: 850px;
+  background: linear-gradient(#434A54, transparent 90%),
+              linear-gradient(0deg, #fff, transparent),
+              #ffa949 url('../img/bg.png') no-repeat center;
+  background-size:cover;
+  color:white;
+}
+.title {
+  font-size: 1.625rem; /* 26px/16px */
+  letter-spacing: .065em;
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+}
+/*--- Header Logo ---*/
+.logo-menu {
+  width: 100%;
+  height: 20%;
+}
+.logo {
+  width: 20%;
+  float: left;
+  padding: 20px 0 0 20px;
+}
+.img-logo {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 5%;
+  float: left;
+}
+
+
+/*---Header Menu ---*/
+.nav {
+  width: 78%;
+  margin: 0 auto;
+  float: left;
+  padding-top: 40px;
+}
+.nav ul {
+  list-style-type:none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav li {
+  display: inline;
+  float: right;
+}
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 16px;
+  
+}
+.nav li a:hover {
+  color: #facd12;
+}
+
+.nav hr {
+  width: 40%;
+  float: right;
+  padding-bottom: -90%;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+/*--- Header Body: Slider, Icon to change; ---*/
+.header-body {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  color: #facd12;
+  font-size: 35px;
+  font-family: 'Averta-Bold';
+}
+/*--- Header Icon ---*/
+.header-icon {
+  width: 100%;
+  height: 10%;
+  padding:0 ;
+  margin: 0 auto;
+}
+.header-icon ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+}
+.header-icon li {
+  display: inline;
+}
+.header-icon li a {
+  padding:14px 16px;  
+}
+
+/**********************************
+BODY: Project,Contact,Feedback,InfoContact;
+***********************************/
+
+/*--- Project(title,portfolio) ---*/
+.s-projects {
+  height: 300px;
+  background-size:cover;
+  text-align: center;
+  width: 100%;
+}
+
+.main-project {
+  width: 100%;
+  height: 80%;
+  padding:0;
+  margin:0 auto;
+}
+.main-project ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.main-project li {
+  display: inline;
+}
+.main-icon li a {
+  padding:14px 16px;
+  
+}
+.main-project img {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+/*--- Clients: Title, portfolio; ---*/
+.s-clients {
+  height: 300px;
+  width: 100%;
+}
+.ul-clients img {
+  width: 150px;
+  height: 120px;
+  margin:0 auto;
+  padding:0 2%;
+}
+
+
+/**********************************
+S-feedback: form , submit to mail;
+***********************************/
+/*--- Nao ---*/
+
+.feedback-form {
+  border: 2px solid tomato;
+  height: 300px;
+
+}
+.s-feedback p {
+  color: #434A54;
+}
+
+
+
+
+
+/**********************************
+S-INFO.CONTACT: info to contact, google map;
+***********************************/
+
+/*--- INFO to contact :info shadow to css---*/
+
+.info-contact {
+  position: relative;
+  width:100%;
+  
+}
+.info-contact iframe {
+  width: 100%;
+}
+.info-shadow {
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  padding:0 3%;
+  top: 0;
+  left: -2;
+  text-align: left;
+  background: #fff;
+  box-shadow: 8px 8px 6px #434a54;
+}
+.info-shadow h1 {
+  font-family: 'Averta-Bold';
+  color: #434A54;
+}
+.info-shadow hr {
+  width: 20px;
+  text-align: left;
+  color: blue;
+  padding-right: 120px;
+}
+.info-shadow p {
+  float: left;
+}
+.info-shadow ol {
+  font-weight: bold;
+  text-align: left;
+}
+.info-shadow li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: #434A54;
+}
+
+
+.f-social li {
+  float: right;
+  padding: 0 2%;
+}
+.f-social img {
+  width: 35px;
+  height: 35px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+footer {
+  background: #facd12;
+  height: 50px;
+  color:white;
+  float: right;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  text-align: right;
+}
